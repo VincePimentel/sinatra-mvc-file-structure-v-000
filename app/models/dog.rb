@@ -1,10 +1,9 @@
 class Dog
-  attr_accessor :name, :age
-  attr_reader :breed
+  attr_accessor :name, :breed, :age
 
   @@all = Array.new
 
-  def initialize(name, breed, age)
+  def initialize(:name, :breed, :age)
     @@all << self
   end
 
