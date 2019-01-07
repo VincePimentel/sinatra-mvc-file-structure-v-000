@@ -1,6 +1,5 @@
 class Dog
   attr_accessor :name, :breed, :age
-  attr_reader :name, :breed, :age
 
   @@all = Array.new
 
