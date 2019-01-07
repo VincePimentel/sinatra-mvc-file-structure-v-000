@@ -3,7 +3,7 @@ class Dog
 
   @@all = Array.new
 
-  def initialize(name:, breed:, age:)
+  def initialize(name, breed, age)
     @@all << self
   end
 
